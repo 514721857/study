@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity
                 }
 
 
-                Snackbar.make(view, "总数："+sum, Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "总数的："+sum, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
